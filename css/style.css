@@ -1,0 +1,573 @@
+body{
+    width: 100%;
+}
+.superior{
+    
+    display: flex;
+    
+    margin-top: 20px;
+   
+    width: 100%;
+   
+}
+.login{
+    
+    width: 200px;
+    height: 480px;
+    background-color: rgb(241, 246, 248);
+    padding: 10px;
+      
+
+}
+#iniciar{
+display: flex;
+
+}
+.logologin{
+width: 80px;
+border-radius: 1000px;
+}
+
+.linklogin{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-decoration:none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+
+}
+.boton1{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: rgb(37, 146, 241);
+    border-radius: 500px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(224, 224, 224);
+
+}
+
+#bienvenida{
+    margin-top: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.encabezado{
+    position: relative;
+    background-color: rgb(230, 176, 112);
+    width: 12200px;
+    height: 500px;
+    padding: 10;
+    background:url(/bocetos/portada.jpg);
+    
+    
+    
+    }
+
+.filmate{
+
+margin-top: 2px;
+text-align: center;
+font-size:300px;
+font-family: monospace;
+color:  rgb(162, 174, 185);
+text-shadow:1px 1px 1px blanchedalmond;
+text-align-last: center;
+
+}
+
+.flexbox{
+    display: flex;
+    margin-top: 100px;
+    position: absolute;
+    top:300px;
+    left: 18%;
+    width: 87%;
+    height: 8%;
+      
+
+}
+
+.irbuscar{
+    position: relative;
+    right: 7%;
+    top: 15%;
+    max-width: max-content;
+    max-height: max-content;
+    height: 150%;
+}
+.buscar{
+    width: 70%;
+    height: 150%;
+   border-radius: 80px;
+   background-color: aliceblue;
+   opacity: 0.8;
+   outline: none;
+   font-size: 20px;
+   line-height: 60px;
+   float:left;
+   font-size: 25px;
+   font-family: sans-serif;
+   
+}
+
+
+.enlaces{
+        
+    display: flex;
+    flex-direction:row;
+
+           
+    }
+    .enlaces img{
+
+        width: auto;
+        height: auto;
+        max-width: 500px;
+        max-height: 500px;
+        border-radius: 80px;
+
+    }
+
+/* .textovinculo1{
+    position: relative;
+    
+    color: rgb(248, 249, 250);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(15, 2, 2);
+}.textovinculo2{
+    
+    position:relative;
+    
+    color: rgb(248, 249, 250);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(15, 2, 2);
+}
+.textovinculo3{
+    
+    position:relative;
+    
+   
+    color: rgb(248, 249, 250);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(15, 2, 2);
+}
+.textovinculo4{
+    position:relative;
+    
+    font-size: 25px;
+    color: rgb(248, 249, 250);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(15, 2, 2);
+} */
+
+@media (max-width:480px){
+
+    .login{
+        width: 500px;
+        height: 1200px;
+    }
+        .logologin{
+        width: 180px;
+        border-radius: 1000px;
+        }
+        
+        .linklogin{
+            margin-top: 15px;
+            margin-left: 10px;
+            text-decoration:none;
+            font-size: 80px;
+            font-family: sans-serif;
+            color: black;
+        
+        }
+        .boton1{
+            width: 320px;
+            height: 100px;
+            font-size: 30px;
+            background-color: black;
+            color: rgb(37, 146, 241);
+            border-radius: 500px;
+            -webkit-text-stroke: 0.5px;
+            -webkit-text-stroke-color: rgb(224, 224, 224);
+        
+        }
+        
+        #bienvenida{
+            margin-top: 25px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 50px;
+
+        }
+    .enlaces{
+        
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+               
+        }
+        .enlaces img{
+    
+            width: auto;
+            height: auto;
+            max-width: 1100px;
+            max-height: 900px;
+            border-radius: 80px;
+            
+        }
+        .enlaces label{
+            font-size: 90px;
+            text-align: center;
+            position:relative;
+            color: rgb(248, 249, 250);
+            -webkit-text-stroke: 1px;
+            -webkit-text-stroke-color: rgb(15, 2, 2);
+        }
+        .superior{
+    
+            display: flex;
+            margin-top: 20px;
+            width: 1000px;
+           
+        }
+        .encabezado{
+            position: relative;
+            width: 1000px;
+            height: 1200px;
+            padding: 10;
+            background:url(/bocetos/portada.jpg);
+            
+            
+            
+            }
+        
+        .filmate{
+        
+        margin-top: 2px;
+        text-align: center;
+        font-size:150px;
+        font-family: monospace;
+        color:  rgb(162, 174, 185);
+        text-shadow:1px 1px 1px blanchedalmond;
+        text-align-last: center;
+        
+        }
+        
+        .flexbox{
+            display: flex;
+            margin-top: 100px;
+            position: absolute;
+            top:300px;
+            left: 18%;
+            width: 87%;
+            height: 8%;
+              
+        
+        }
+        
+        .irbuscar{
+            position: relative;
+            right: 7%;
+            top: 15%;
+            max-width: max-content;
+            max-height: max-content;
+            height: 150%;
+        }
+        .buscar{
+            width: 70%;
+            height: 150%;
+           border-radius: 80px;
+           background-color: aliceblue;
+           opacity: 0.8;
+           outline: none;
+           font-size: 20px;
+           line-height: 60px;
+           float:left;
+           font-size: 25px;
+           font-family: sans-serif;
+           
+        }
+        
+       
+        }
+
+        @media ( min-width:480px){
+
+            .login{
+                width: 500px;
+                height: 1200px;
+            }
+                .logologin{
+                width: 180px;
+                border-radius: 1000px;
+                }
+                
+                .linklogin{
+                    margin-top: 15px;
+                    margin-left: 10px;
+                    text-decoration:none;
+                    font-size: 80px;
+                    font-family: sans-serif;
+                    color: black;
+                
+                }
+                .boton1{
+                    width: 320px;
+                    height: 100px;
+                    font-size: 30px;
+                    background-color: black;
+                    color: rgb(37, 146, 241);
+                    border-radius: 500px;
+                    -webkit-text-stroke: 0.5px;
+                    -webkit-text-stroke-color: rgb(224, 224, 224);
+                
+                }
+                
+                #bienvenida{
+                    margin-top: 25px;
+                    text-align: center;
+                    font-family: sans-serif;
+                    font-size: 50px;
+    
+                }
+            .superior{
+    
+                display: flex;
+                margin-top: 20px;
+                width: 2000px;
+               
+            }
+            .encabezado{
+                position: relative;
+                width: 1480px;
+                height: 1200px;
+                padding: 10;
+                background:url(/bocetos/portada.jpg);
+                background-size:cover;
+            }
+            .enlaces{
+                
+                display: flex;
+                flex-direction:row;
+                width: 2000px;
+                background-color: rgb(23, 21, 32);
+                       
+                }
+                .enlaces img{
+            
+                    display: flex;
+                    width: auto;
+                    height: auto;
+                    max-width: 1000px;
+                    min-height: 800px;
+                    border-radius: 20px;
+                    
+                }
+                .enlaces label{
+                    font-size: 100px;
+                    text-align: center;
+                    position:relative;
+                    color: rgb(248, 249, 250);
+                    -webkit-text-stroke: 1px;
+                    -webkit-text-stroke-color: rgb(15, 2, 2);
+                }
+                
+                          
+                
+                .filmate{
+                
+                margin-top: 2px;
+                
+                text-align: center;
+                font-size:330px;
+                font-family: monospace;
+                color:  rgb(162, 174, 185);
+                text-shadow:1px 1px 1px blanchedalmond;
+                text-align-last: center;
+                
+                }
+                
+                .flexbox{
+                    display: flex;
+                    margin-top: 100px;
+                    position: absolute;
+                    top:300px;
+                    left: 18%;
+                    width: 87%;
+                    height: 8%;
+                      
+                
+                }
+                
+                .irbuscar{
+                    position: relative;
+                    right: 7%;
+                    top: 15%;
+                    max-width: max-content;
+                    max-height: max-content;
+                    height: 150%;
+                }
+                .buscar{
+                    width: 70%;
+                    height: 150%;
+                   border-radius: 80px;
+                   background-color: aliceblue;
+                   opacity: 0.8;
+                   outline: none;
+                   font-size: 20px;
+                   line-height: 60px;
+                   float:left;
+                   font-size: 25px;
+                   font-family: sans-serif;
+                   
+                }
+            }
+
+
+            @media ( min-width:768px){
+
+                .login{
+                    width: 250px;
+                    height: 600px;
+                }
+                    .logologin{
+                    width: 100px;
+                    border-radius: 1000px;
+                    }
+                    
+                    .linklogin{
+                        margin-top: 15px;
+                        margin-left: 10px;
+                        text-decoration:none;
+                        font-size: 25px;
+                        font-family: sans-serif;
+                        color: black;
+                    
+                    }
+                    .boton1{
+                        width: 150px;
+                        height: 60px;
+                        font-size: 20px;
+                        background-color: black;
+                        color: rgb(37, 146, 241);
+                        border-radius: 500px;
+                        -webkit-text-stroke: 0.5px;
+                        -webkit-text-stroke-color: rgb(224, 224, 224);
+                    
+                    }
+                    
+                    #bienvenida{
+                        margin-top: 25px;
+                        text-align: center;
+                        font-family: sans-serif;
+                        font-size: 25px;
+        
+                    }
+                .superior{
+        
+                    display: flex;
+                    margin-top: 20px;
+                    width: 2500px;
+                   
+                }
+                .encabezado{
+                    position: relative;
+                    width: 2500px;
+                    height: 600px;
+                    padding: 10;
+                    background:url(/bocetos/portada.jpg);
+                    background-size:cover;
+                }
+                .enlaces{
+                    
+                    display: flex;
+                    flex-direction:row;
+                    width: 2500px;
+                    background-color: rgb(232, 241, 248);
+                    
+                           
+                    }
+
+                    .enlaces div{
+                        display: flex;
+                    }
+
+                    .enlaces img{
+                
+                        display: flex;
+                        width: auto;
+                        height: auto;
+                        max-width: 500px;
+                        min-height: 400px;
+                        border-radius: 20px;
+                        
+                    }
+                    .enlaces label{
+                        font-size: 60px;
+                        text-align: center;
+                        position:relative;
+                        color: rgb(248, 249, 250);
+                        -webkit-text-stroke: 1px;
+                        -webkit-text-stroke-color: rgb(15, 2, 2);
+                    }
+                    
+                              
+                    
+                    .filmate{
+                    
+                    margin-top: 2px;
+                    
+                    text-align: center;
+                    font-size:330px;
+                    font-family: monospace;
+                    color:  rgb(162, 174, 185);
+                    text-shadow:1px 1px 1px blanchedalmond;
+                    text-align-last: center;
+                    
+                    }
+                    
+                    .flexbox{
+                        display: flex;
+                        margin-top: 100px;
+                        position: absolute;
+                        top:300px;
+                        left: 18%;
+                        width: 87%;
+                        height: 8%;
+                          
+                    
+                    }
+                    
+                    .irbuscar{
+                        position: relative;
+                        right: 7%;
+                        top: 15%;
+                        max-width: max-content;
+                        max-height: max-content;
+                        height: 150%;
+                    }
+                    .buscar{
+                        width: 70%;
+                        height: 150%;
+                       border-radius: 80px;
+                       background-color: aliceblue;
+                       opacity: 0.8;
+                       outline: none;
+                       font-size: 20px;
+                       line-height: 60px;
+                       float:left;
+                       font-size: 25px;
+                       font-family: sans-serif;
+                       
+                    }
+                }
+    
+    
+
+                
+               
+                
+        
